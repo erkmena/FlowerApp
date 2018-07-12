@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Flower.Data\FlowerApp.Data.csproj" />
+    <ProjectReference Include="..\FlowerApp.Core\FlowerApp.Core.csproj" />
+    <ProjectReference Include="..\FlowerApp.Services\FlowerApp.Services.csproj" />
+    <ProjectReference Include="..\FlowerModel\FlowerApp.Model.csproj" />
+  </ItemGroup>
+
+</Project>
